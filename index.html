@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sixSizes</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="shortcut icon" href="./assets/img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css">
+</head>
+
+<body>
+    <div><img src="./assets/img/logo.ico" alt=""></div>
+    <h3>Selecciona el tamaño del dispositivo</h3>
+    <div class="social">
+        <a href="https://github.com/Ballwictb" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://gravatar.com/ballwictb" target="_blank"> <i class="fa-light fa-globe-pointer"></i></a>
+
+    </div>
+    <form class="layoutSizes">
+        <fieldset class="widthPX">
+            <legend>Ancho (px)</legend>
+            <label for="width1">Ancho 1:</label>
+            <input type="number" id="width1" name="width1" placeholder="Ancho 1">
+
+            <label for="width2">Ancho 2:</label>
+            <input type="number" id="width2" name="width2" placeholder="Ancho 2">
+
+            <label for="width3">Ancho 3:</label>
+            <input type="number" id="width3" name="width3" placeholder="Ancho 3">
+
+            <label for="width4">Ancho 4:</label>
+            <input type="number" id="width4" name="width4" placeholder="Ancho 4">
+
+            <label for="width5">Ancho 5:</label>
+            <input type="number" id="width5" name="width5" placeholder="Ancho 5">
+
+            <label for="width6">Ancho 6:</label>
+            <input type="number" id="width6" name="width6" placeholder="Ancho 6">
+        </fieldset>
+
+        <fieldset class="heightPX">
+            <legend>Alto (px)</legend>
+            <label for="height1">Alto 1:</label>
+            <input type="number" id="height1" name="height1" placeholder="Alto 1">
+
+            <label for="height2">Alto 2:</label>
+            <input type="number" id="height2" name="height2" placeholder="Alto 2">
+
+            <label for="height3">Alto 3:</label>
+            <input type="number" id="height3" name="height3" placeholder="Alto 3">
+
+            <label for="height4">Alto 4:</label>
+            <input type="number" id="height4" name="height4" placeholder="Alto 4">
+
+            <label for="height5">Alto 5:</label>
+            <input type="number" id="height5" name="height5" placeholder="Alto 5">
+
+            <label for="height6">Alto 6:</label>
+            <input type="number" id="height6" name="height6" placeholder="Alto 6">
+        </fieldset>
+
+        <fieldset class="descSize">
+            <legend>Descripción del tamaño</legend>
+            <label for="desc1">Descripción 1:</label>
+            <input type="text" id="desc1" value="móvil" name="desc1">
+
+            <label for="desc2">Descripción 2:</label>
+            <input type="text" id="desc2" value="móvil" name="desc2">
+
+            <label for="desc3">Descripción 3:</label>
+            <input type="text" id="desc3" value="tableta pequeña" name="desc3">
+
+            <label for="desc4">Descripción 4:</label>
+            <input type="text" id="desc4" value="tableta - retrato" name="desc4">
+
+            <label for="desc5">Descripción 5:</label>
+            <input type="text" id="desc5" value="tableta - horizontal" name="desc5">
+
+            <label for="desc6">Descripción 6:</label>
+            <input type="text" id="desc6" value="escritorio" name="desc6">
+        </fieldset>
+    </form>
+
+    <div class="search-section">
+        <label for="pageSearch">Introduce la URL de la página:</label>
+        <input type="text" id="pageSearch" name="página" class="text">
+        <button id="buscador">Buscar</button>
+    </div>
+
+    <div class="iframe-container">
+        <iframe frameborder="0" id="iframe1"></iframe>
+        <iframe frameborder="0" id="iframe2"></iframe>
+        <iframe frameborder="0" id="iframe3"></iframe>
+        <iframe frameborder="0" id="iframe4"></iframe>
+        <iframe frameborder="0" id="iframe5"></iframe>
+        <iframe frameborder="0" id="iframe6"></iframe>
+    </div>
+    <script src="./assets/index.js"></script>
+</body>
+
+</html>
